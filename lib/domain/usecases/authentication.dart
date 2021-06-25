@@ -1,8 +1,9 @@
-import 'package:fordev/domain/entities/account_entity.dart';
+
+import 'package:fordev/domain/entities/entities.dart';
 
 abstract class Authentication {
   Future<AccountEntity> auth({
     String email,
     String password
-  });
+    });
 }
